@@ -9,3 +9,7 @@ var createTaskHandler = function () {
 };
 
 buttonEl.addEventListener('click', createTaskHandler);
+
+buttonEl.addEventListener('click', function () {
+  alert("I've been clicked!");
+});
